@@ -15,14 +15,8 @@
           Navigate
         </ion-list-header>
         <ion-menu-toggle auto-hide="false">
-          <ion-item button @click="menuNavigation('/browser')">
-            <ion-label>Browser</ion-label>
-          </ion-item>
           <ion-item button @click="menuNavigation('/tab1')">
             <ion-label>tab1</ion-label>
-          </ion-item>
-          <ion-item button @click="menuNavigation('/tab2')">
-            <ion-label>tab2</ion-label>
           </ion-item>
           <ion-item button @click="menuNavigation('/tab3')">
             <ion-label>tab3</ion-label>
